@@ -16,3 +16,5 @@ fields:
   hidden: false
   default: ''
   description: 'URL for external project '
+pages:
+- _projects/lmlo.md
