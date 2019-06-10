@@ -31,5 +31,5 @@ fields:
   description: Choose which header photo to use for the page
   default: headerimage
 pages:
-- contact.md
 - about.md
+- contact.md
