@@ -15,7 +15,7 @@ For details on how to apply please see [here.]({{ site.url }}/opportunities/post
 
 ## Call for Summer Software Developers (Undergraduate and Graduate Students)
 
-We are now accepting applications for Summer 2019. For details on how to apply please see [here.]({{ site.url }}/opportunities/summer-developers)
+Thank you for your interest! We have finished hiring for Summer 2019. We will post Summer 2020 opportunities early next year.
 
 <br>
 
