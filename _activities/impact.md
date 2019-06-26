@@ -10,7 +10,7 @@ Institutions who are using and implementing our technology:
 
 *   Boston College: [Burns Antiphoner](http://burnsantiphoner.bc.edu/) (Diva + CANTUS display methods)
 *   Duke University Libraries: [http://blogs.library.duke.edu/<wbr>bitstreams/2014/06/06/<wbr>leveling-up-our-document-<wbr>viewer/](http://blogs.library.duke.edu/bitstreams/2014/06/06/leveling-up-our-document-viewer/)
-*   Omas@MITH: [https://github.com/umd-mith/ema/tree/master/Omas<wbr>html](https://github.com/umd-mith/ema/tree/master/Omas) (libmei + verovio)
+*   Omas@MITH: [https://github.com/umd-mith/ema/tree/master/Omas](https://github.com/umd-mith/ema/tree/master/Omas) (libmei + verovio)
 *   Continuo@MITH: [http://mith.us/continuo/](http://mith.us/continuo/) + [https://github.com/umd-mith/<wbr>continuo](https://github.com/umd-mith/continuo) (Verovio)
 
 <br>  
