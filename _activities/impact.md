@@ -26,5 +26,5 @@ Projects that we have contributed to:
 *   [Gamera](http://gamera.informatik.hsnr.de/)
 *   [Serpy](https://github.com/clarkduvall/serpy)
 *   [PySolr](https://github.com/django-haystack/pysolr)
-*   [midi.js](https://mudcu.be/midi-js/)
+*   [midi.js](https://github.com/mudcube/MIDI.js)
 *   [d3.js](https://d3js.org/)
