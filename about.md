@@ -24,7 +24,7 @@ Our research is organized along two axes: content and analysis. The content axis
 
 The analysis axis develops tools and techniques for large-scale search and analysis of music in symbolic notation. Take a look at the [ELVIS Project](http://elvisproject.ca/) to access our growing database of music in symbolic notation and explore some of our software development on [GitHub](https://github.com/DDMAL).
 
-Keep up-to-date with our [blog]({{ site.url }}/blog), follow us on [Twitter](https://twitter.com/simssaproject), and check out our [publications]({{ site.url }}/publications), [workshops]({{ site.url }}/workshops), [presentations]({{ site.url }}/presentations), [impact]({{ site.url }}/impact), and [media]({{ site.url }}/media).
+Keep up-to-date with our [blog]({{ site.url }}/blog), follow us on [Twitter](https://twitter.com/simssaproject), and check out our [publications]({{ site.url }}/activities/publications), [workshops]({{ site.url }}/activities/workshops), [presentations]({{ site.url }}/activities/presentations), [impact]({{ site.url }}/activities/impact), and [media]({{ site.url }}/activities/media).
 
 
 <br>
@@ -64,7 +64,7 @@ Notre projet de recherche s’articule autour de deux axes : le contenu et l’a
 L’axe « analyse » vise à développer des outils et des techniques pour la recherche et l’analyse à grande échelle de partitions musicales. Pour accéder à notre base de données sans cesse croissante de partitions musicales sous forme de notation symbolique, visitez le site du projet [ELVIS](http://elvisproject.ca/). Vous pouvez par ailleurs explorer quelques uns des logiciels que nous avons développés sur [GitHub](https://github.com/DDMAL).
 
 
-Pour vous tenir au courant, vous pouvez visiter notre [blog]({{ site.url }}/blog), nous suivre sur [Twitter](https://twitter.com/simssaproject) et consulter nos [publications]({{ site.url }}/publications), [ateliers]({{ site.url }}/workshops), [présentations]({{ site.url }}/presentations), [impact]({{ site.url }}/impact), et [médias]({{ site.url }}/media).
+Pour vous tenir au courant, vous pouvez visiter notre [blog]({{ site.url }}/blog), nous suivre sur [Twitter](https://twitter.com/simssaproject) et consulter nos [publications]({{ site.url }}/activities/publications), [ateliers]({{ site.url }}/activities/workshops), [présentations]({{ site.url }}/activities/presentations), [impact]({{ site.url }}/activities/impact), et [médias]({{ site.url }}/activities/media).
 
 
 <br>
