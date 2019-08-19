@@ -4,8 +4,9 @@ title: Minh Anh Nguyen
 first_name: Minh Anh
 last_name: Nguyen
 institution: McGill University
-project_group: students
+project_group: alumni
 participation_date_start: 2018-05-01
-#participation_date_end:
 link: https://github.com/nminnie
+participation_date_end: 2019-04-30 04:00:00 +0000
+
 ---
