@@ -5,11 +5,6 @@ image_class: headerimage
 permalink: "/opportunities/"
 
 ---
-<br>
-
-## We are hiring a Postdoctoral Researcher in Music Information Retrieval!
-
-For details on how to apply please see [here.]({{ site.url }}/opportunities/postdoc-analysis)
 
 <br>
 
