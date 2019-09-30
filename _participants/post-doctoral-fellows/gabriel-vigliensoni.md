@@ -6,5 +6,6 @@ last_name: Vigliensoni
 institution: McGill University
 project_group: post-doctoral-fellow
 link: http://vigliensoni.com
-# participation_date_start: 2010-04-19
+participation_date_start: 2017-09-01 04:00:00 +0000
+
 ---
