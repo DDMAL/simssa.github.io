@@ -46,6 +46,7 @@ fields:
   description: When did the student/alumni/researcher/etc start their time with SIMSSA?
   config:
     date_format: YYYY-MM-DD
+    export_format: YYYY-MM-DD
 - type: datetime
   name: participation_date_end
   label: Participation Date End
