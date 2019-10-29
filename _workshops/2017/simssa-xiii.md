@@ -13,9 +13,13 @@ Held at the Art Gallery of Nova Scotia, adjacent to the [Tenth Annual Conference
 
 Guests included:
 
-* Ichiro Fujinaga, McGill University
-* Jennifer Bain, Dalhousie
-* Sarah Long, Michigan State University
-* Alessandra Ignesti, McGill University
+* Jennifer Bain, Dalhousie University
 * Inga Behrendt, Eberhard Karls Universität Tübingen
 * Elsa De Luca, Universidade Nova de Lisboa
+* Ichiro Fujinaga, McGill University
+* Alessandra Ignesti, McGill University
+* Debra Lacoste, University of Waterloo
+* Sarah Long, Michigan State University
+* Rebecca Shaw, Dalhousie University
+* Mirka Marie Tiede, Eberhard Karls Universität Tübingen
+
