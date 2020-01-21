@@ -54,6 +54,9 @@ scholar:
   use_raw_bibtex_entry: true
   group_by: year
 
+sass:
+    sass_dir: _sass
+
 # About/contact
 author:
   name:              Mark Otto
