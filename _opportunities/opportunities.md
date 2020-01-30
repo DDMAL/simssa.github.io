@@ -6,13 +6,6 @@ permalink: "/opportunities/"
 
 ---
 
-<br>
-
-## Call for Summer Software Developers (Undergraduate and Graduate Students)
-
-Thank you for your interest! We have finished hiring for Summer 2019. We will post Summer 2020 opportunities early next year.
-
-<br>
 
 ## Call for Graduate Students
 
