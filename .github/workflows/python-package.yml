@@ -21,6 +21,8 @@ jobs:
     - name: execute py script # run the run.py to get the latest data
       run: |
         python github_html_parser.py
+    - name: add credentials
+      run: git config --global user.email "esav678@gmail.com"; git config --global user.name "evansavage"
     - name: check for changes
       run: git status
     - name: stage changed files
