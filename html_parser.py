@@ -3,6 +3,7 @@ from urllib.parse import unquote
 import re
 import os
 import markdown
+import shutil
 
 print('Media (m,M), presentations (pr, PR), publications (pu, PU), or all (a,A)?\n')
 choice = str(input()).lower()
@@ -22,6 +23,9 @@ else:
 simssa_root_folder = './'
 export_folder = 'zotero_export/'
 
+# if os.path.exists():
+#     shutil.rmtree(simssa_root_folder + citation_folder + '/' + year)
+
 for type in parse_list:
 
     html_file_name = f'SIMSSA_{type}.html'
@@ -30,6 +34,8 @@ for type in parse_list:
     with open(export_folder + html_file_name) as f:
         html_soup = BeautifulSoup(f, 'html.parser')
 
+    shutil.rmtree(citation_folder)
+    os.makedirs(citation_folder)
     # Save html (div) and ascii title [ [<div></div>, "Example Title"]]
 
     html_array = []
@@ -61,6 +67,7 @@ for type in parse_list:
                 final_title = t
                 break
         file_name = author + '_' + final_title.replace(' ', '_') + '_' + year + '.md'
+
         if not os.path.exists(simssa_root_folder + citation_folder + '/' + year):
             os.makedirs(simssa_root_folder + citation_folder + '/' + year)
         with open(simssa_root_folder + citation_folder + '/' + year + '/' + file_name, 'w') as f:

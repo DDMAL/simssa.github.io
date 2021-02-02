@@ -3,6 +3,7 @@ from urllib.parse import unquote
 import re
 import os
 import markdown
+import shutil
 
 full_list = ['media', 'presentations', 'publications']
 
@@ -18,6 +19,9 @@ for type in full_list:
         html_soup = BeautifulSoup(f, 'html.parser')
 
     # Save html (div) and ascii title [ [<div></div>, "Example Title"]]
+
+    shutil.rmtree(citation_folder)
+    os.makedirs(citation_folder)
 
     html_array = []
 
@@ -48,6 +52,7 @@ for type in full_list:
                 final_title = t
                 break
         file_name = author + '_' + final_title.replace(' ', '_') + '_' + year + '.md'
+
         if not os.path.exists(simssa_root_folder + citation_folder + '/' + year):
             os.makedirs(simssa_root_folder + citation_folder + '/' + year)
         with open(simssa_root_folder + citation_folder + '/' + year + '/' + file_name, 'w') as f:
