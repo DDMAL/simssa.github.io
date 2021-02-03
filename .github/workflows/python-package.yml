@@ -3,7 +3,9 @@ name: Python package
 on:
   push:
     paths:
-      - 'zotero_export/'
+      - 'zotero_export/SIMSSA_media.html'
+      - 'zotero_export/SIMSSA_presentations.html'
+      - 'zotero_export/SIMSSA_publications.html'
 
 jobs:
   build:
