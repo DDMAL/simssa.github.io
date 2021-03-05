@@ -7,6 +7,8 @@ permalink: "/opportunities/"
 ---
 # SIMSSA is hiring for Summer 2021! 
 
+Please note: You are welcome to apply for more than one position. Since there is some overlap in the skill sets, depending on the applicant pool we may also consider you for a different position than the one(s) you apply for. Please make it clear in your cover letter which position(s) you are interested in and if you have a preference. Thank you!
+
 ## Software developers
 
 The Single Interface for Music Score Searching and Analysis (SIMSSA) project is hiring McGill undergraduate and graduate students to work as summer software developers.
