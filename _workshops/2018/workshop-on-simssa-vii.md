@@ -14,7 +14,7 @@ published: false
 ---
 Earlier this month we had our seventeenth SIMSSA workshop, this time here at McGill in collaboration with [CIRMMT](https://www.cirmmt.org).
 
-![]({{ site.url }}/assets/img/group-shot-simssaxvii.png)
+![](https://simssa.ca/assets/img/group-shot-simssaxvii.png)
 
 Presenters included:
 
@@ -38,5 +38,4 @@ Presenters included:
 * Jada Watson, University of Ottawa
 * Gustavo Polins Pedro, McGill University
 * Yaolong Ju, McGill University
-
 * Vi-an Tran, McGill University
