@@ -38,4 +38,3 @@ Presenters included:
 * Jada Watson, University of Ottawa
 * Gustavo Polins Pedro, McGill University
 * Yaolong Ju, McGill University
-* Vi-an Tran, McGill University
