@@ -36,6 +36,8 @@ fields:
   type: datetime
   hidden: false
   default: ''
+  config:
+    export_format: YYYY-MM-DD
 - name: event_year
   label: Event year
   type: text
