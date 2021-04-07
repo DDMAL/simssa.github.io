@@ -7,7 +7,7 @@ categories:
 - SIMSSA
 location: Montreal, QC
 event_date: 2019-09-20
-event_year: 2019
+event_year: "2019"
 venue: CIRMMT, McGill University
 
 ---

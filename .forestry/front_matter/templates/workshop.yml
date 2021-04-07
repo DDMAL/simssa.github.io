@@ -38,6 +38,8 @@ fields:
   default: ''
   config:
     export_format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: " "
 - name: event_year
   label: Event year
   type: text
