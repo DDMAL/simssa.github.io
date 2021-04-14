@@ -2,18 +2,20 @@
 title: Workshop on SIMSSA X
 _template: event
 event_date: 2016-09-24
-event_year: 2016
+event_year: "2016"
 venue: CIRMMT, McGill University
 location: Montreal, QC
 categories:
-  - Workshop
-  - SIMSSA
-  - CIRMMT
+- Workshop
+- SIMSSA
+- CIRMMT
 author: neshraghi
-upload: ""
----
+upload: ''
 
-This is the tenth in the series of SIMSSA Workshops, highlighting recent developments in the SIMSSA Projects. This workshop is organized by CIRMMT Research Axis 2 (Music information research). It took place on Saturday, September 24, 2016, in A832 (New Music Building), hosted at McGill University.
+---
+This is the tenth in the series of SIMSSA Workshops, highlighting recent developments in the SIMSSA Projects. This workshop is organized by CIRMMT Research Axis 2 (Music information research). It took place on Saturday, September 24, 2016, in A832 (New Music Building), hosted at McGill University. For more details, please check out our [blog post](https://simssa.ca/blog/simssa-workshop-x/ "SIMSSA X blog").
+
+![](https://simssa.ca/assets/img/image1.jpg)
 
 Guests included:
 
