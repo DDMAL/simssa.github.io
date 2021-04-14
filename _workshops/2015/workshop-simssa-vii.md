@@ -2,14 +2,16 @@
 title: Workshop on SIMSSA VII
 _template: event
 event_date: 2015-07-08
-event_year: 2015
+event_year: "2015"
 location: Brussels, Belgium
 venue: MedRen
 author: ehopkins
-upload: ""
----
+upload: ''
 
-SIMSSA Workshop VII took place at [MedRen](http://medren2015.ulb.ac.be/) in Brussels. Ichiro Fujinaga introduced the workshop and gave some recent updates. Julie Cumming and Andrew Hankinson gave updates on the Analysis and Content axes, and Laurent Pugin discussed Verovio.
+---
+SIMSSA Workshop VII took place at [MedRen](http://medren2015.ulb.ac.be/) in Brussels. Ichiro Fujinaga introduced the workshop and gave some recent updates. Julie Cumming and Andrew Hankinson gave updates on the Analysis and Content axes, and Laurent Pugin discussed Verovio. For more details, please check out our [blog post](https://simssa.ca/blog/simssa-summer-conferences-new-york-and-brussels/ "SIMSSA Summer Conferences").
+
+![MedRen Workshop VII](https://simssa.ca/assets/img/MedRenWorkshop-20150820113127.png)
 
 Guests included:
 
