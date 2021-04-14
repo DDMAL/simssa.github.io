@@ -2,14 +2,16 @@
 title: Workshop on SIMSSA II
 _template: event
 event_date: 2012-07-28
-event_year: 2012
+event_year: "2012"
 venue: CIRMMT, McGill University
 location: Montreal, QC
 author: jhatter
-upload: ""
----
+upload: ''
 
-["Workshop on SIMSSA: Single Interface for Music Score Searching and Analysis II](http://www.cirmmt.org/activities/workshops/research/simssa/event)" organized by CIRMMT Research Axis 3.
+---
+["Workshop on SIMSSA: Single Interface for Music Score Searching and Analysis II](http://www.cirmmt.org/activities/workshops/research/simssa/event)" organized by CIRMMT Research Axis 3. For more details, please check out our [blog post]().
+
+![](https://simssa.ca/assets/img/IAML_Group_Photo.jpg)
 
 Keynote speaker:
 
