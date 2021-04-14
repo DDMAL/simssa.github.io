@@ -1,15 +1,15 @@
 ---
-title: 'Workshop on SIMSSA XII'
+title: Workshop on SIMSSA XII
 _template: event
 event_date: 2017-08-07
-event_year: 2017
+event_year: "2017"
 venue: CIRMMT, McGill University
 location: Montreal, QC
 author: ehopkins
-upload: ""
----
+upload: ''
 
-Featuring presentations on recent work in the SIMSSA Project, including Pixel.js, the Interactive Classifier, Neon.js, and our latest OMR developments. Craig Sapp was our featured Keynote Speaker. This workshop was co-organized by CIRMMT Research Axis 2 (Music information research) and SIMSSA. It took place on Aug. 7, 2017, in the A832 in the Wirth Music Building at McGill University.
+---
+Featuring presentations on recent work in the SIMSSA Project, including Pixel.js, the Interactive Classifier, Neon.js, and our latest OMR developments. Craig Sapp was our featured Keynote Speaker. This workshop was co-organized by CIRMMT Research Axis 2 (Music information research) and SIMSSA. It took place on Aug. 7, 2017, in the A832 in the Wirth Music Building at McGill University. For more details, please check out our [blog post](https://simssa.ca/blog/SIMSSAXII/ "SIMSSA XII blog"). 
 
 Guests included:
 
