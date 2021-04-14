@@ -2,19 +2,19 @@
 title: Workshop on Digital Musicology
 _template: event
 event_date: 2018-04-27
-event_year: 2018
+event_year: "2018"
 venue: CIRMMT, McGill University
 location: Montreal, QC
 categories:
-  - Workshop
-  - SIMSSA
-  - digital musicology
-  - CIRMMT
+- Workshop
+- SIMSSA
+- digital musicology
+- CIRMMT
 author: ehopkins
-upload: ""
----
+upload: ''
 
-On 27 April, we held a workshop with CIRMMT RA 2 — Music Information Research. This workshop was designed as a companion to Eleanor Selfridge-Field’s CIRMMT Distinguished Lecture. Unfortunately her visit to Montreal had to be cancelled but we were able to hold the workshop anyways.
+---
+On 27 April, we held a workshop with CIRMMT RA 2 — Music Information Research. This workshop was designed as a companion to Eleanor Selfridge-Field’s CIRMMT Distinguished Lecture. Unfortunately her visit to Montreal had to be cancelled but we were able to hold the workshop anyways. For more details, please check out our [blog post](https://simssa.ca/blog/Workshop-on-digital-musicology/ "Workshop on Digital Musicology").
 
 ![]({{ site.url }}/assets/img/group-shot-27april.png)
 

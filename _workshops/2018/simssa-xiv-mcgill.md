@@ -2,21 +2,21 @@
 title: Workshop on SIMSSA XIV
 _template: event
 event_date: 2018-05-28
-event_year: 2018
+event_year: "2018"
 venue: CIRMMT, McGill University
 location: Montreal, QC
 categories:
-  - Workshop
-  - SIMSSA
-  - OMR
-  - machine learning
-  - IIIF
-  - IIIF AV
+- Workshop
+- SIMSSA
+- OMR
+- machine learning
+- IIIF
+- IIIF AV
 author: ehopkins
-upload: ""
----
+upload: ''
 
-On 28 May 2018, we hosted our fourteenth SIMSSA Workshop at Mcgill University.
+---
+On 28 May 2018, we hosted our fourteenth SIMSSA Workshop at Mcgill University. For more details, please check out our [blog post](https://simssa.ca/blog/Workshop-on-SIMSSA-XIV/ "SIMSSA XIV blog").
 
 ![]({{ site.url }}/assets/img/SIMSSAXIV-groupshot.png)
 
