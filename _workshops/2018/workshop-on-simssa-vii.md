@@ -6,7 +6,7 @@ categories:
 - Workshop
 - " SIMSSA"
 location: Montreal, QC
-event_date: 2018-11-30
+event_date: 2018-12-01
 event_year: "2018"
 venue: CIRMMT, McGill University
 
