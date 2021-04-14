@@ -2,17 +2,18 @@
 title: 'Workshop on SIMSSA IV: ONRP and Cantus Ultimus'
 _template: event
 event_date: 2014-09-29
-event_year: 2014
+event_year: "2014"
 venue: CIRMMT, McGill University
 location: Montreal, QC
 author: jhatter
-upload: ""
----
+upload: ''
 
+---
 [Workshop on SIMSSA (Single Interface for Music Score Searching and Analysis) IV](http://www.cirmmt.org/activities/workshops/research/simssa0914/event)
 
-Highlighted recent development in the SIMSSA project and the ELVIS (Electronic Locator of Vertical Interval Successions) project.
-Included presentations by guests from two other SSHRC projects: Optical Neume Recognition project and Cantus Ultimus project.
+Highlighted recent development in the SIMSSA project and the ELVIS (Electronic Locator of Vertical Interval Successions) project. Included presentations by guests from two other SSHRC projects: Optical Neume Recognition project and Cantus Ultimus project. For more details, please check out our [blog post](https://simssa.ca/blog/simssa-workshop-iva/ "SIMSSA IV blog").
+
+![The people who came to SIMSSA IV on Sept. 29, 2014.](https://simssa.ca/assets/img/SIMSSA_4_Group_Photo1-20150121092558.jpg)
 
 Guests included:
 
