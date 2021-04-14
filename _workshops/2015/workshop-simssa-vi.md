@@ -2,14 +2,16 @@
 title: Workshop on SIMSSA VI
 _template: event
 event_date: 2015-06-27
-event_year: 2015
+event_year: "2015"
 location: New York, NY
 venue: IAML
 author: ehopkins
-upload: ""
----
+upload: ''
 
-Workshop on SIMSSA VI took place at the IAML/IMS Congress, [“Music Research in the Digital Age.”](http://www.musiclibraryassoc.org/page/IAML_IMS_2015/)
+---
+Workshop on SIMSSA VI took place at the IAML/IMS Congress, [“Music Research in the Digital Age.”](http://www.musiclibraryassoc.org/page/IAML_IMS_2015/) For more details, please check our [blog post](https://simssa.ca/blog/simssa-summer-conferences-new-york-and-brussels/ "SIMSSA Summer Conferences").
+
+![IAML/IMS Workshop VI](https://simssa.ca/assets/img/IAMLGroupShot-20150820113031.png)
 
 Guests included:
 
