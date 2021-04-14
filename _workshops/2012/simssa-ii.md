@@ -9,7 +9,7 @@ author: jhatter
 upload: ''
 
 ---
-["Workshop on SIMSSA: Single Interface for Music Score Searching and Analysis II](http://www.cirmmt.org/activities/workshops/research/simssa/event)" organized by CIRMMT Research Axis 3. For more details, please check out our [blog post]().
+["Workshop on SIMSSA: Single Interface for Music Score Searching and Analysis II](http://www.cirmmt.org/activities/workshops/research/simssa/event)" organized by CIRMMT Research Axis 3. For more details, please check out our [blog post](https://simssa.ca/blog/simssa-workshop-overview-july-28th-2012/ "SIMSSA II blog").
 
 ![](https://simssa.ca/assets/img/IAML_Group_Photo.jpg)
 
