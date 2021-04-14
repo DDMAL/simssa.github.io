@@ -2,14 +2,14 @@
 title: 'CIRMMT Workshop: Processing Large  Amounts of Musical Information'
 _template: event
 event_date: 2012-02-17
-event_year: 2012
+event_year: "2012"
 venue: CIRMMT, McGill University
 location: Montreal, QC
 author: jhatter
-upload: ""
----
+upload: ''
 
-[Workshop on processing large amounts of musical information](http://www.cirmmt.org/activities/workshops/research/musical-info/event) organized by CIRMMT Research Axis 3.
+---
+[Workshop on processing large amounts of musical information](http://www.cirmmt.org/activities/workshops/research/musical-info/event) organized by CIRMMT Research Axis 3. For more details, please check out our [blog post](https://simssa.ca/blog/elvis-and-ra3-host-a-mini-conference/ "CIRMMT mini-conference blog").
 
 Speakers including:
 
