@@ -7,11 +7,11 @@ categories:
 - " SIMSSA"
 location: Montreal, QC
 event_date: 2018-11-30
-event_year: 2018
+event_year: "2018"
 venue: CIRMMT, McGill University
 
 ---
-Earlier this month we had our seventeenth SIMSSA workshop, this time here at McGill in collaboration with [CIRMMT](https://www.cirmmt.org).
+Earlier this month we had our seventeenth SIMSSA workshop, this time here at McGill in collaboration with [CIRMMT](https://www.cirmmt.org). For more details, please refer to the [blog post](https://simssa.ca/blog/simssa_xvii/ "SIMSSA XVII").
 
 ![](https://simssa.ca/assets/img/group-shot-simssaxvii.png)
 
