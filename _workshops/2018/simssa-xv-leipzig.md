@@ -2,19 +2,19 @@
 title: Workshop on SIMSSA XV
 _template: event
 event_date: 2018-07-28
-event_year: 2018
+event_year: "2018"
 venue: IAML
 location: Leipzig, Germany
 categories:
-  - Workshop
-  - SIMSSA
-  - IAML
-  - music libraries
+- Workshop
+- SIMSSA
+- IAML
+- music libraries
 author: ehopkins
-upload: ""
----
+upload: ''
 
-Our fifteenth SIMSSA Workshop took place in Leipzig on 28 July 2018 immediately following the annual congress of the International Association of Music Librarians.
+---
+Our fifteenth SIMSSA Workshop took place in Leipzig on 28 July 2018 immediately following the annual congress of the International Association of Music Librarians. For more details, please check out our [blog post](https://simssa.ca/blog/simssa-xv-in-leipzig/ "SIMSSA XV blog").
 
 ![]({{ site.url }}/assets/img/simssaxv.png)
 

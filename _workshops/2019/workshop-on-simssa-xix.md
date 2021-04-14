@@ -11,7 +11,7 @@ event_year: "2019"
 venue: CIRMMT, McGill University
 
 ---
-On 21 September 2019, we had our 19th SIMSSA workshop, this time here at McGill in collaboration with [CIRMMT](https://www.cirmmt.org). For more details, please refer to the [blog post](https://simssa.ca/blog/simssa-xix/).
+On 21 September 2019, we had our 19th SIMSSA workshop, this time here at McGill in collaboration with [CIRMMT](https://www.cirmmt.org). For more details, please check out our [blog post](https://simssa.ca/blog/simssa-xix/ "SIMSSA XIX blog").
 
 ![]({{ site.url }}/assets/img/simssaxix_group.png)
 
