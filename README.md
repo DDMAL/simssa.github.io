@@ -11,6 +11,7 @@ This is the repository for the SIMSSA website distributed via GitHub Pages. It i
   - [Organization](#organization)
   - [Media](#media)
 - [Troubleshooting](#troubleshooting)
+- [Updating Citations Locally](#updating-citations-locally)
 
 ## Local Setup
 
@@ -103,3 +104,5 @@ When writing or editing a Markdown entry that will include an image or file, hit
 ## Troubleshooting
 
 If you are having any difficulties with setup, the CMS, or local development, please feel free to email [Evan Savage](mailto:evan.savage@mail.mcgill.ca) or use the issues tab found in this repository. 
+
+## Updating Citations Locally
