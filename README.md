@@ -106,3 +106,7 @@ When writing or editing a Markdown entry that will include an image or file, hit
 If you are having any difficulties with setup, the CMS, or local development, please feel free to email [Evan Savage](mailto:evan.savage@mail.mcgill.ca) or use the issues tab found in this repository. 
 
 ## Updating Citations Locally
+
+In order to update citations on the website, you will need access to the lab's Zotero collections. Once there, inside the SIMSSA folder, there are three subfolders for _Media_, _Presentations_, and _Publications_ respectively. 
+
+To create an export, right click on any of those subfolders and select the option **Create Bibliography from Collection...**. At this point, make sure you have installed _SIMSSA's Chicago Manual of Style 17th edition_ inside the **Manage Styles...** popup. Then, set _Output Mode_ to **Bibliography** and _Output Method_ to **Save as HTML**. Select ok, and name the file one of **SIMSSA_< \[media, presentations, publications\] >** depending on which folder you are exporting.
