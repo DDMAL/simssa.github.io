@@ -10,8 +10,9 @@ This is the repository for the SIMSSA website distributed via GitHub Pages. It i
   - [CMS Navigation](#cms-navigation)
   - [Organization](#organization)
   - [Media](#media)
-- [Troubleshooting](#troubleshooting)
 - [Updating Citations Locally](#updating-citations-locally)
+- [Troubleshooting](#troubleshooting)
+
 
 ## Local Setup
 
@@ -101,14 +102,20 @@ Blog posts, workshops, and individual pages often include images and downloads o
 
 When writing or editing a Markdown entry that will include an image or file, hit `ctrl+shift+u` to open the Media folder. Then, you can select any existing media and drop it right into the new post; Forestry handles the file path automatically, and it should not need to be altered. Images will be center-justified when posted to the website. 
 
-## Troubleshooting
-
-If you are having any difficulties with setup, the CMS, or local development, please feel free to email [Evan Savage](mailto:evan.savage@mail.mcgill.ca) or use the issues tab found in this repository. 
-
 ## Updating Citations Locally
 
 In order to update citations on the website, you will need access to the lab's Zotero collections. Once there, inside the SIMSSA folder, there are three subfolders for _Media_, _Presentations_, and _Publications_ respectively. 
 
 To create an export, right click on any of those subfolders and select the option **Create Bibliography from Collection...**. At this point, make sure you have installed _SIMSSA's Chicago Manual of Style 17th edition_ inside the **Manage Styles...** popup. Then, set _Output Mode_ to **Bibliography** and _Output Method_ to **Save as HTML**. Select ok, and name the file one of 
-```SIMSSA_< [media, presentations, publications] >.html``` 
-depending on which folder you are exporting.
+```
+  SIMSSA_< [media, presentations, publications] >.html
+``` 
+depending on which folder you are exporting. Then, save it inside the `zotero_export/` folder within this directory.
+
+Next, run the `html_parser.py` script at the top level of this directory (works on Python 3.7, have not checked others). You will be prompted to input text based on which type of citations you would like to update, one of the three or all. The markdown files representing the updated citations in Zotero should now be updated in the folder, and the changes can be pushed to this repo. 
+
+_There is another GitHub Actions script called github_html_parser.py that was used in an attempt to automatically update the citation markdown files when zotero_export/ files are updated and pushed to the repo. It is currently deprecated._
+
+## Troubleshooting
+
+If you are having any difficulties with setup, the CMS, or local development, please feel free to email [Evan Savage](mailto:evan.savage@mail.mcgill.ca) or use the issues tab found in this repository. 
