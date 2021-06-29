@@ -17,6 +17,8 @@ Institutions who are using and implementing our technology:
 
 Projects that we have contributed to:
 
+*   [Measuring Polyphony](https://measuringpolyphony.org/)
+*   [Measuring Polyphony Editor](https://editor.measuringpolyphony.org/#/)
 *   [Verovio](http://www.verovio.org/index.xhtml)
 *   [MEI](http://music-encoding.org/)
 *   [music21](http://web.mit.edu/music21/)
