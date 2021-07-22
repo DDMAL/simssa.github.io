@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="theme-color" content="#3E3F3A">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#3E3F3A">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#3E3F3A">
+  <title>
+    
+      Machine Learning in Music Analysis &middot; SIMSSA
+    
+  </title>
+
+  <link rel="shortcut icon" type="image/ico" href="http://localhost:4000/assets/favicon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+
+  <!-- <link rel="stylesheet" type="text/css" href="http://localhost:4000/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:4000/css/simssa.css"> -->
+</head>
+
+
+  <body id ="Site" class='layout-reverse theme-base-sm sidebar-overlay'>
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar navbar-expand-sm navbar-default navbar-fixed-top" role="navigation">
+        <div class="container" id="nav-container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://localhost:4000/">SIMSSA</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav nav mr-auto">
+<!--                     <li class="active"><a href="/">Home</a></li> -->
+
+
+                    <li><a href="http://localhost:4000/about">About</a></li>
+                    <li><a href="http://localhost:4000/people">Participants</a></li>
+                    <!-- <li><a href="/publications">Publications</a></li> -->
+
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Activities<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/impact/' target='_top' >Our impact</a></li>
+                          
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/media/' target='_top' >Media</a></li>
+                          
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/presentations/' target='_top' >Presentations</a></li>
+                          
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/publications/' target='_top' >Publications</a></li>
+                          
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/workshops/' target='_top' >Workshops</a></li>
+                          
+                        
+                      </ul>
+                    </li>
+
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Projects and links<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        
+                            <li><a href='http://cantus.simssa.ca/' target='_top' >Cantus Ultimus</a></li>
+                        
+                            <li><a href='http://elvisproject.ca/' target='_top' >ELVIS Project</a></li>
+                        
+                            <li><a href='http://jmir.sourceforge.net/index_jSymbolic.html' target='_top' >jSymbolic2</a></li>
+                        
+                            <li><a href='http://liber.simssa.ca' target='_top' >Liber Usualis</a></li>
+                        
+                            <li><a href='https://github.com/DDMAL/Andrew-Hughes-Chant' target='_top' >LMLO</a></li>
+                        
+                            <li><a href='https://musiclibs.net' target='_top' >Musiclibs</a></li>
+                        
+                            <li><a href='http://ddmal.teamwork.com/' target='_top' >Teamwork</a></li>
+                        
+                        <hr id="menu-divider">
+                        <li><a href="http://github.com/DDMAL" target="_blank">Github</a></li>
+                        <li><a href="http://twitter.com/simssaproject" target="_blank">Twitter</a></li>
+                      </ul>
+                    </li>
+
+                    <li><a href="http://localhost:4000/blog">Blog</a></li>
+                    <li><a href="http://localhost:4000/opportunities">Opportunities</a></li>
+
+                    <li><a href="http://localhost:4000/contact">Contact us</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="post">
+  <div class="container">
+    <div class="page-header" id="banner">
+        <div class="row">
+            <div class="col-lg-12">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+        	<h2>Machine Learning in Music Analysis</h2><br />
+        	<p class="blog-post">
+        	   Posted by ehopkins on November 06, 2015
+          </p><br />
+			    <p><p><em>Reiner Krämer has been working with SIMSSA as a Postdoc since July, and has been presenting on some of the work he’s done, most recently at <a href="https://societymusictheory.org/">SMT</a>. Today’s post is a guest entry from Reiner, explaining some of his recent work and its implications for music theory and musicology research.</em></p>
+
+<p>Using machine learning techniques as a compositional tool in music is almost as old as writing computer programs itself. When in 1957 Lejaren Hiller and Leonard Isaacson composed the <em>Illiac Suite</em> (also know as String Quartet No. 4), the researchers employed probability (p) tables generated that were used for Markov chain computations.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>  One of the main ideas behind Markov models is how to randomly move from on state to another. The task is statistically achieved by creating state transition matrices (STMs). A STM keeps a tally of how many times a state is changed from one discrete point (A) to another (B). At the end of the task a percentage, or p, is assigned to the number of times a transition occurred from A =&gt; B, A =&gt; A, B =&gt; A, B=&gt; B. The combined transitions can be described as a bigram, or 2-gram, which in turn can be expressed in a STM (Table 1). The STM can be visualized (Figure 1) as a state transition network (STN). In an actual Markov chain, a specialized function would then use the probabilities found in the STM to influence a randomized decision making process. From a music analysis perspective the STMs themselves become of importance. The STMs hold statistical information on what type of rule-set, or grammar, was employed by a composer to generate a certain stylistic outcome.
+<br />
+<br />
+<em>Table 1: A first order Markov chain STM</em>
+<img src="http://localhost:4000/assets/img/table1.png" alt="" />
+<br /><br />
+<img src="http://localhost:4000/assets/img/STN.png" alt="" />
+<em>Figure 1: State Transition Network</em>
+<br /><br />
+There a different kind of STMs that can be generated from music. In polyphonic there are a minimum of three: (1) bigram STMs of melodic successions for each voice; (2) bigram STMs of vertical successions – voices combined; and (3) bigram STMs of rhythmic successions for each voice. In addition, three STMs can be generated for 3-grams (trigrams), 4-grams (tetragrams), 5-grams (pentagrams), and any other number of n-grams. A melodic succession bigram can be generated by the movements of [C4 =&gt; D4], [C4 =&gt; C4], [D4 =&gt; C4], or [D4 =&gt; D4]. Higher order n-grams would include a series of notes (or melodic strand) to move to another melodic strand: [C4 -&gt; D4 -&gt; E4] =&gt; [E4 -&gt; D-4 -&gt; C4]. Permutations of the previous example can be expressed as a STM. A vertical succession bigram would include something like (C4 E4 G4 C5) =&gt; (C4 F4 A4 C5), and can be expanded to any series of n-grams like [(C4 E4 G4 C5) -&gt; (C4 F4 A4 C5)] =&gt; [(G3 D4 G4 B4) -&gt; (C4 E4 G4 C5)]. Rhythmic melodic n-grams can be expressed as [quarter -&gt; quarter -&gt; half] =&gt; [half -&gt; quarter -&gt; quarter]. Melodic and vertical n-grams can be combined, which is what the VIS-Framework was originally developed for. In fact, all permutations of melodic, vertical, and rhythmic successions can result in STMs that can be used to identify statistical attributes of a musical style.</p>
+
+<p>Examining the four-voice motet <em>De profundis</em> (with conflicting attribution to Josquin, or Champion) generates numerous bi-grammatical STMs. The following table (for now, the table includes PCs, however, the STM algorithm can handle any type of pitch representation) shows a melodic succession STM of all the combined voices (Table 2):
+<br /><br />
+<em>Table 2: Bigram STM of the</em> De profundis <em>four-voice motet</em>
+<br /><br />
+<img src="http://localhost:4000/assets/img/table2.png" alt="" />
+<br /><br />
+The first column of the table shows a PC at the beginning of each row from which movement occurs. The header of each consecutive column shows to where the PC from the first column row is moving to. For example: PC 0 =&gt; PC 2 with a p of ca. 28%. Simply observing the data within the STM it is clear that the composition begins with a single voice on PC 2 (25%), while the other voices start with a rest (75%). The only PCs used in the composition are 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, and 11. PC 10 only moves to PC 9 in all four voices, and is approached only by PC 9, thereby making it an upper neighbor motion. Likewise, PC 1 only moves to PC 2, and PC 2 only moves to PC 1, also an upper neighbor motion. The composition ends on PC collection 2, 7, 11, or G, B, D (reordered). However, a much clearer picture emerges when the STM is represented as a STN (Figure 2).
+<br /><br />
+<img src="http://localhost:4000/assets/img/De-Profundis.png" alt="" />
+<br /><br />
+<em>Figure 2: STN of melodic succession De profundis.</em>
+<br /><br />
+An often arising question of applying machine learning, or statistical methods to music analyses is whether or not these methods mark the end of the musicological or music analytical discourse. However, these methods should be seen as an addition to what we already know about music that we study. In fact, the newly acquired data creates more work for musicologists, music theorists, and <em>Liebhaber</em> alike.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Hiller, Lejaren, and Leonard M. Isaacson. <em>Experimental Music: Composition with an Electronic Computer</em>. Second ed. New York: McGraw-Hill, 1959. 131-151, 162-164. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</p>
+        </div>
+    </div>
+    <br /><hr /><br />
+    <div class="related">
+      <h2>Related Posts</h2>
+      <ul class="related-posts">
+        
+          <li>
+            <h3>
+              <a href="http://localhost:4000/blog/ismir2019/">
+                ISMIR 2019: Delft
+                <!-- <small>16 Dec 2019</small> -->
+              </a>
+            </h3>
+          </li>
+        
+          <li>
+            <h3>
+              <a href="http://localhost:4000/blog/simssa-xix/">
+                SIMSSA XIX: Introducing DACT and MML16
+                <!-- <small>11 Dec 2019</small> -->
+              </a>
+            </h3>
+          </li>
+        
+          <li>
+            <h3>
+              <a href="http://localhost:4000/blog/simssa_xvii/">
+                SIMSSA XVII: Infrastructure for Music Discovery
+                <!-- <small>01 Dec 2018</small> -->
+              </a>
+            </h3>
+          </li>
+        
+      </ul>
+      <br /><br /><br>
+    </div>
+  </div>
+</div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://localhost:4000/js/bootstrap.min.js"></script>
+  </body>
+</html>

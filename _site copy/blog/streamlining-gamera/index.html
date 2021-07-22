@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="theme-color" content="#3E3F3A">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#3E3F3A">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#3E3F3A">
+  <title>
+    
+      Streamlining Gamera &middot; SIMSSA
+    
+  </title>
+
+  <link rel="shortcut icon" type="image/ico" href="http://localhost:4000/assets/favicon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+
+  <!-- <link rel="stylesheet" type="text/css" href="http://localhost:4000/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:4000/css/simssa.css"> -->
+</head>
+
+
+  <body id ="Site" class='layout-reverse theme-base-sm sidebar-overlay'>
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar navbar-expand-sm navbar-default navbar-fixed-top" role="navigation">
+        <div class="container" id="nav-container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://localhost:4000/">SIMSSA</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav nav mr-auto">
+<!--                     <li class="active"><a href="/">Home</a></li> -->
+
+
+                    <li><a href="http://localhost:4000/about">About</a></li>
+                    <li><a href="http://localhost:4000/people">Participants</a></li>
+                    <!-- <li><a href="/publications">Publications</a></li> -->
+
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Activities<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/impact/' target='_top' >Our impact</a></li>
+                          
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/media/' target='_top' >Media</a></li>
+                          
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/presentations/' target='_top' >Presentations</a></li>
+                          
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/publications/' target='_top' >Publications</a></li>
+                          
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/workshops/' target='_top' >Workshops</a></li>
+                          
+                        
+                      </ul>
+                    </li>
+
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Projects and links<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        
+                            <li><a href='http://cantus.simssa.ca/' target='_top' >Cantus Ultimus</a></li>
+                        
+                            <li><a href='http://elvisproject.ca/' target='_top' >ELVIS Project</a></li>
+                        
+                            <li><a href='http://jmir.sourceforge.net/index_jSymbolic.html' target='_top' >jSymbolic2</a></li>
+                        
+                            <li><a href='http://liber.simssa.ca' target='_top' >Liber Usualis</a></li>
+                        
+                            <li><a href='https://github.com/DDMAL/Andrew-Hughes-Chant' target='_top' >LMLO</a></li>
+                        
+                            <li><a href='https://musiclibs.net' target='_top' >Musiclibs</a></li>
+                        
+                            <li><a href='http://ddmal.teamwork.com/' target='_top' >Teamwork</a></li>
+                        
+                        <hr id="menu-divider">
+                        <li><a href="http://github.com/DDMAL" target="_blank">Github</a></li>
+                        <li><a href="http://twitter.com/simssaproject" target="_blank">Twitter</a></li>
+                      </ul>
+                    </li>
+
+                    <li><a href="http://localhost:4000/blog">Blog</a></li>
+                    <li><a href="http://localhost:4000/opportunities">Opportunities</a></li>
+
+                    <li><a href="http://localhost:4000/contact">Contact us</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="post">
+  <div class="container">
+    <div class="page-header" id="banner">
+        <div class="row">
+            <div class="col-lg-12">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+        	<h2>Streamlining Gamera</h2><br />
+        	<p class="blog-post">
+        	   Posted by cmotuz on November 30, 2011
+          </p><br />
+			    <p><p>The <a href="http://salzinnes.simssa.ca/">Salzinnes</a> project has gone public! I’m writing from Austria now, here to play in some concerts, yet I got the news right away in the form of a Facebook notification. But of course.</p>
+
+<p>After feeding the first 60 or so pages of Salzinnes into the computer’s OMR system, <a href="http://gamera.informatik.hsnr.de/">Gamera</a>, we decided it was time to see how efficiently it was actually learning. Gamera learns by making a library of images or “glyphs,” then recognizing new ones by comparing them to its library. It doesn’t just recognize images by their shape and size - after all, sizes can vary drastically depending on the resolution of an image - but by looking at elements such as how symmetrical they are, their black-to-white pixel ratio, and by the patters produced by their pixels when piled onto the x or y axis.</p>
+
+<p>Here you can see that clivis and a podatus look much the same when the pixels are gathered up to the x (bottom) and y (left) axes of the images:</p>
+
+<p><img src="http://localhost:4000/assets/img/clivis2_projections.png" alt="" /> <img src="http://localhost:4000/assets/img/podatus2_projections.png" alt="" /></p>
+
+<p>Obviously with these two, Gamera uses other tools to distinguish them!</p>
+
+<p>Another thing we’ve done to streamline Gamera has been to pare down our glyph library. We had been adding glyphs to the library with every page, but loading up its accumulated 24000+ glyphs was becoming tedious, so Andrew told Gamera to delete any which would produce the same recognition results, and pared the library down to a mere 727. This smaller number also made it possible to go through the library manually and take out the inevitable spelling annomalies that had creeped in in the course of naming 24000 glyphs. (Now we’ve just abbreviated the names too so hopefully this should happen less.) To test it out, we evaluated the same page using both the 24000- and 727-glyph libraries and the latter won, recognizing more glyphs and, even more importantly, grouping together more unconnected elements to form neumes and clefs.</p>
+
+<p>The other thing that slows the <a href="http://en.wikipedia.org/wiki/Music_OCR">OMR</a> process down is that it sees any unique item on the page as a possible glyph. If we don’t manually delete them before asking the system to classify the glyphs, then it will get confused by specks and lyrics: it offers to include i’s among the puncta inclinata, while specks usually get classified as custodes - not helpful! Gabriel has just come up with a way to provide images which are less speckled while not compromising Gamera’s ability to recognize neumes, which Laura tested yesterday and apparently it saved a noticeable amount of time. Andrew in the meantime has applied some of the lab’s previous work to detect the borders of the pages (which come out black when binarized) and to <a href="http://ismir2009.ismir.net/proceedings/OS8-3.pdf">remove lyrics automatically</a>.</p>
+
+<p>The best thing about all of these upgrades to our OMR system is that they save human time. The few minutes per page, when we multiply by 600 pages, will result in the next weeks in a few hours saved - a very much appreciated thing especially at this time of year!</p>
+</p>
+        </div>
+    </div>
+    <br /><hr /><br />
+    <div class="related">
+      <h2>Related Posts</h2>
+      <ul class="related-posts">
+        
+          <li>
+            <h3>
+              <a href="http://localhost:4000/blog/ismir2019/">
+                ISMIR 2019: Delft
+                <!-- <small>16 Dec 2019</small> -->
+              </a>
+            </h3>
+          </li>
+        
+          <li>
+            <h3>
+              <a href="http://localhost:4000/blog/simssa-xix/">
+                SIMSSA XIX: Introducing DACT and MML16
+                <!-- <small>11 Dec 2019</small> -->
+              </a>
+            </h3>
+          </li>
+        
+          <li>
+            <h3>
+              <a href="http://localhost:4000/blog/simssa_xvii/">
+                SIMSSA XVII: Infrastructure for Music Discovery
+                <!-- <small>01 Dec 2018</small> -->
+              </a>
+            </h3>
+          </li>
+        
+      </ul>
+      <br /><br /><br>
+    </div>
+  </div>
+</div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://localhost:4000/js/bootstrap.min.js"></script>
+  </body>
+</html>

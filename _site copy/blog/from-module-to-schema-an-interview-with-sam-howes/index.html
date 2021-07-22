@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="theme-color" content="#3E3F3A">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#3E3F3A">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#3E3F3A">
+  <title>
+    
+      From Module to Schema: an interview with Sam Howes &middot; SIMSSA
+    
+  </title>
+
+  <link rel="shortcut icon" type="image/ico" href="http://localhost:4000/assets/favicon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+
+  <!-- <link rel="stylesheet" type="text/css" href="http://localhost:4000/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:4000/css/simssa.css"> -->
+</head>
+
+
+  <body id ="Site" class='layout-reverse theme-base-sm sidebar-overlay'>
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar navbar-expand-sm navbar-default navbar-fixed-top" role="navigation">
+        <div class="container" id="nav-container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://localhost:4000/">SIMSSA</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav nav mr-auto">
+<!--                     <li class="active"><a href="/">Home</a></li> -->
+
+
+                    <li><a href="http://localhost:4000/about">About</a></li>
+                    <li><a href="http://localhost:4000/people">Participants</a></li>
+                    <!-- <li><a href="/publications">Publications</a></li> -->
+
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Activities<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/impact/' target='_top' >Our impact</a></li>
+                          
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/media/' target='_top' >Media</a></li>
+                          
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/presentations/' target='_top' >Presentations</a></li>
+                          
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/publications/' target='_top' >Publications</a></li>
+                          
+                        
+                          
+                            <li><a href='http://localhost:4000/activities/workshops/' target='_top' >Workshops</a></li>
+                          
+                        
+                      </ul>
+                    </li>
+
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Projects and links<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        
+                            <li><a href='http://cantus.simssa.ca/' target='_top' >Cantus Ultimus</a></li>
+                        
+                            <li><a href='http://elvisproject.ca/' target='_top' >ELVIS Project</a></li>
+                        
+                            <li><a href='http://jmir.sourceforge.net/index_jSymbolic.html' target='_top' >jSymbolic2</a></li>
+                        
+                            <li><a href='http://liber.simssa.ca' target='_top' >Liber Usualis</a></li>
+                        
+                            <li><a href='https://github.com/DDMAL/Andrew-Hughes-Chant' target='_top' >LMLO</a></li>
+                        
+                            <li><a href='https://musiclibs.net' target='_top' >Musiclibs</a></li>
+                        
+                            <li><a href='http://ddmal.teamwork.com/' target='_top' >Teamwork</a></li>
+                        
+                        <hr id="menu-divider">
+                        <li><a href="http://github.com/DDMAL" target="_blank">Github</a></li>
+                        <li><a href="http://twitter.com/simssaproject" target="_blank">Twitter</a></li>
+                      </ul>
+                    </li>
+
+                    <li><a href="http://localhost:4000/blog">Blog</a></li>
+                    <li><a href="http://localhost:4000/opportunities">Opportunities</a></li>
+
+                    <li><a href="http://localhost:4000/contact">Contact us</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="post">
+  <div class="container">
+    <div class="page-header" id="banner">
+        <div class="row">
+            <div class="col-lg-12">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+        	<h2>From Module to Schema: an interview with Sam Howes</h2><br />
+        	<p class="blog-post">
+        	   Posted by ehopkins on July 11, 2016
+          </p><br />
+			    <p><p><em>Sam Howes is a PhD student in Music Theory at McGill, and a researcher for the SIMSSA project. He recently presented a paper at the <a href="http://www.music.indiana.edu/departments/academic/music-theory/SMT%20Early%20Music%20Analysis%20Interest%20Group%20Conference.shtml">SMT Early Music Analysis Interest Group Conference in Indiana</a>, “From Module to Schema in Corelli’s Trio Sonatas.” I interviewed him for the blog to talk about his research and his experiences with computer music analysis and SIMSSA.</em></p>
+
+<p><img src="http://localhost:4000/assets/img/sam-violin600.png" alt="" /></p>
+
+<p><strong>Emily Hopkins:</strong> When did you first become interested in using computers to do musical analysis?</p>
+
+<p><strong>Sam Howes:</strong> In the summer of 2015 I took an introductory computer science course and around that same time, I discovered Peter Schubert’s <a href="https://www.youtube.com/watch?v=n01J393WpKk">“Improvising a Canon”</a> videos on Youtube. The simple description of melodic rules in those videos is what first helped me realize that strict counterpoint can be generated, and even queried, algorithmically.</p>
+
+<p><strong>EH:</strong> What was the main research question for this project?</p>
+
+<p><strong>SH:</strong> My aim was to better understand Corelli’s compositional process in his Op.4 trio sonatas—specifically, his use of recurring snippets of counterpoint, which are called modules. Contrapuntal modules show up in all kinds of music from Renaissance to Romantic, so I was curious to see what kinds of modules Corelli was using. Most scholars agree that Corelli’s music is one of the first clear examples of common-practice harmony, so I was also curious to see what kinds of harmonic ramifications (if any) Corelli’s modules might have.</p>
+
+<p><strong>EH:</strong> How did you approach this question from the standpoint of computer-based analysis?</p>
+
+<p>First I had to define the scope of my search. Having played many of Corelli’s sonatas, I decided to focus on suspensions, which are ubiquitous in the upper voices, as any violinist will tell you. Like the rules for improvising a canon, the rules for suspensions relate a vertical event (a dissonant interval) to the horizontal events around it (preparation and resolution). Finding a second or a seventh between the violins means more than just finding a suspension: it means finding a little snippet of counterpoint necessitated by those rules.</p>
+
+<p><img src="http://localhost:4000/assets/img/1st_pic-scaleddown.png" alt="" /></p>
+
+<p>The tools I started with—the <a href="http://vis-framework.readthedocs.io/en/stable/">VIS Framework</a> and the <a href="https://github.com/DDMAL/rodan-client">Rodan Client</a>—converted all the intervals in all the sonatas into numbers. Then, I wrote a Python script to search for suspensions in the violins. When a suspension was found, the script would also record the interval on the next strong beat.</p>
+
+<p>From there, the patterns of intervals that were most common are what I chose to think of as “important words” in Corelli’s vocabulary. There were four of these, which I called Modules A through D.</p>
+
+<p><img src="http://localhost:4000/assets/img/moduleABCD-2-600-20160708133510.png" alt="" /></p>
+
+<p><strong>EH:</strong> For those of us who are newer to this area of music theory, can you explain what a module is? A schema?</p>
+
+<p><strong>SH:</strong> The term module was first defined by <a href="http://arts.ucdavis.edu/faculty-profile/jessie-ann-owens">Jessie Ann Owens</a> in her 1997 book <a href="https://global.oup.com/academic/product/composers-at-work-9780195129045?cc=ca&amp;lang=en&amp;"><em>Composers at Work</em>.</a> More recently, this term has gained a lot of attention in the work of <a href="http://www.music.mcgill.ca/~schubert/">Peter Schubert</a> and <a href="https://www.mcgill.ca/music/about-us/bio/julie-e-cumming">Julie Cumming</a>, who show how modules function as basic structural units in Renaissance music. In short, a module is any contrapuntal combination, of any length, that appears more than once in a piece. Modules are usually labelled with a series of numbers that represent the vertical intervals between the voices, as in the example below:</p>
+
+<p><img src="http://localhost:4000/assets/img/sample_module-600-20160711115431.png" alt="" /></p>
+
+<p>The term schema (pl. schemata) comes from <a href="http://faculty-web.at.northwestern.edu/music/gjerdingen/">Robert Gjerdingen</a>’s book <a href="https://global.oup.com/academic/product/music-in-the-galant-style-9780195313710?cc=ca&amp;lang=en&amp;"><em>Music in the Galant Style</em></a>, in which he describes and names several common harmonic patterns in music around the turn of the eighteenth century. Schemata are similar to modules in that they feature a prescribed relationship between two voices (usually the outer voices, with inner voices being optional) and the title of my paper, “From Module to Schema in Corelli’s Trio Sonatas,” hints at this similarity, suggesting a sort of evolution from one to the other. The picture below is of a popular schema known as the “Romanesca.”
+<img src="http://localhost:4000/assets/img/romanesca-600.png" alt="" /></p>
+
+<p><strong>EH:</strong> Can you explain a couple of your most interesting findings?</p>
+
+<p><strong>SH:</strong> There were two major findings. The first is that modules often combine with themselves and with each other to form sequences. Modules A and B are especially likely to do this.</p>
+
+<p><img src="http://localhost:4000/assets/img/corelli_ex1-600.png" alt="" /></p>
+
+<p>The second is that all modules are likely to be supported by certain bass lines more than others. Module A has a wide variety of possible harmonizations, while Module B begins to show a preference for basslines that move up by a fifth or a second. Module C is harmonized almost exclusively by descending fifths, and Module D prefers root motions of descending fifth or ascending second.</p>
+
+<p><img src="http://localhost:4000/assets/img/piecharts-5-600-20160708133659.png" alt="" /></p>
+
+<p>Combining these two findings, I was able to show how chains of modules begin to behave like schemata. Imagine a chain of suspensions that progresses downwards (a sequence composed entirely of Module A). If this chain is harmonized with alternating five-four chords and ninth chords, the schema that emerges is a Romanesca.</p>
+
+<p><img src="http://localhost:4000/assets/img/corelli_ex.2.png" alt="" /></p>
+
+<p><strong>EH:</strong> What was your technical background in terms of coding and computer analysis before coming to McGill? What have you learned since starting here?</p>
+
+<p><strong>SH:</strong> In terms of coding, almost nothing. The computer science course I took was an introduction to Java with an emphasis on image manipulation, so there was definitely a learning curve when I started working with Python and all these data in the form of spreadsheets.</p>
+
+<p>I would say the most important thing I’ve learned so far is how to think algorithmically— how to craft a question in the most efficient way for a computer. Music theory is all about asking questions and computer analysis is a wonderful way to practice asking the right questions in the right order.</p>
+
+<p><strong>EH:</strong> Tell me more about your experience collaborating with other coders for this project and more generally at McGill.</p>
+
+<p><strong>SH:</strong> One of our post-docs, Reiner Krämer, was a big help in getting me started with Python; he constantly encouraged me to make my code more efficient and to “think algorithmically.” Other VIS experts in the lab like Alex Morgan and Marina Borsodi-Benson made helpful suggestions during and after the presentation of my first draft. Marina in particular made an important contribution to the search process itself, allowing me to account for all dissonances (including cadential suspensions) and not just the ones that fall into one of the four groups I mentioned earlier.</p>
+
+<p><strong>EH:</strong> What made you choose a live ensemble to demonstrate your musical examples? What were the advantages and disadvantages? Would you do it again, or recommend it to a colleague?</p>
+
+<p><strong>SH:</strong> Because I argued that the bass was a sort of auxiliary voice that “coloured” the modules in the upper voices harmonically, it was very useful to be able to hear just the violins, or just the bass, before putting the whole texture together. I would definitely recommend this to anyone who is presenting on counterpoint, with the caveat that a rehearsal with performers, as well as the timing of the examples, can sometimes be tricky at a conference.</p>
+
+<p><strong>EH:</strong> Did working on this project give you ideas for other software tools to develop that would be useful in the future?</p>
+
+<p><strong>SH:</strong> Rather than any one idea or tool, I would say that the most important thing to develop next is some kind of guide to the enormous variety of existing analysis tools that are available for free online. Such a guide might help people like me (with little technical background) to harness the power of computer analysis in their own research and to experience the rapidly expanding world of digital music theory for the first time.</p>
+</p>
+        </div>
+    </div>
+    <br /><hr /><br />
+    <div class="related">
+      <h2>Related Posts</h2>
+      <ul class="related-posts">
+        
+          <li>
+            <h3>
+              <a href="http://localhost:4000/blog/ismir2019/">
+                ISMIR 2019: Delft
+                <!-- <small>16 Dec 2019</small> -->
+              </a>
+            </h3>
+          </li>
+        
+          <li>
+            <h3>
+              <a href="http://localhost:4000/blog/simssa-xix/">
+                SIMSSA XIX: Introducing DACT and MML16
+                <!-- <small>11 Dec 2019</small> -->
+              </a>
+            </h3>
+          </li>
+        
+          <li>
+            <h3>
+              <a href="http://localhost:4000/blog/simssa_xvii/">
+                SIMSSA XVII: Infrastructure for Music Discovery
+                <!-- <small>01 Dec 2018</small> -->
+              </a>
+            </h3>
+          </li>
+        
+      </ul>
+      <br /><br /><br>
+    </div>
+  </div>
+</div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://localhost:4000/js/bootstrap.min.js"></script>
+  </body>
+</html>
