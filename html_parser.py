@@ -66,6 +66,7 @@ for type in parse_list:
             if t.split('_')[0] != ')no':
                 final_title = t
                 break
+        final_title = final_title.replace('/', ' ')
         file_name = author + '_' + final_title.replace(' ', '_') + '_' + year + '.md'
 
         if not os.path.exists(simssa_root_folder + citation_folder + '/' + year):
