@@ -7,5 +7,6 @@ institution: McGill University
 project_group: project-manager
 role: Project Manager
 participation_date_start: 2015-07-01
-participation_date_end: 2022-01-31
+participation_date_end: 2022-01-31 05:00:00 +0000
+
 ---
