@@ -28,12 +28,12 @@ title: Workshops
 
                   {% if workshop.venue %}
                     {{ workshop.venue }}
-                  {% endif %}
                   ,
+                  {% endif %}
                   {% if workshop.location %}
                     {{ workshop.location }}
-                  {% endif %}
                   ,
+                  {% endif %}
                   {{ workshop.event_date | date: "%B %d, %Y" }}
 
                 </h4>
