@@ -1,4 +1,4 @@
 ---
 title: ELVIS Project
-link: http://elvisproject.ca/
+<!--link: http://elvisproject.ca/ -->
 ---
