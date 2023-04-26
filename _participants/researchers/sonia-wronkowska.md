@@ -6,4 +6,5 @@ last_name: Wronkowska
 institution: The National Library of Poland
 project_group: researchers
 participation_date_start: 2016-07-01
+participation_date_end: 2023-03-01
 ---
