@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-
-<html lang="en-us"><head>
+<html lang="en-us">
+  <head>
     <link href="http://gmpg.org/xfn/11" rel="profile">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -11,209 +11,150 @@
     <meta name="msapplication-navbutton-color" content="#3E3F3A">
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#3E3F3A">
-    <title>
-
-        Elvis Database — better than ever. · SIMSSA
-
-    </title>
-
+    <title>      Elvis Database — better than ever. &middot; SIMSSA  </title>
     <link rel="shortcut icon" type="image/ico" href="../../assets/favicon.png">
-
     <!-- CSS -->
-    <link rel="stylesheet" href="../../assets/css/main.css">
-
-    <!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="/css/simssa.css"> -->
+    <link rel="stylesheet" href="../../assets/css/main.css" />
   </head>
-
-
-    <body id="Site" class="layout-reverse theme-base-sm sidebar-overlay">
-
-      <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-           content to avoid any CSS collisions with our real content. -->
-
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <div class="navbar navbar-expand-sm navbar-default navbar-fixed-top" role="navigation">
-          <div class="container" id="nav-container">
-              <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="/">SIMSSA</a>
-              </div>
-              <div class="collapse navbar-collapse">
-                  <ul class="navbar-nav nav mr-auto">
-  <!--                     <li class="active"><a href="/">Home</a></li> -->
-
-
-                      <li><a href="/about">About</a></li>
-                      <li><a href="/people">Participants</a></li>
-                      <!-- <li><a href="/publications">Publications</a></li> -->
-
-                      <li class="dropdown">
-                        <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Activities<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-
-
-                              <li><a href="/activities/corpora-and-datasets/" target="_top">Datasets and Corpora</a></li>
-
-
-
-                              <li><a href="/activities/impact/" target="_top">Our impact</a></li>
-
-
-
-                              <li><a href="/activities/media/" target="_top">Media</a></li>
-
-
-
-                              <li><a href="/activities/presentations/" target="_top">Presentations</a></li>
-
-
-
-                              <li><a href="/activities/publications/" target="_top">Publications</a></li>
-
-
-
-                              <li><a href="/activities/workshops/" target="_top">Workshops</a></li>
-
-
-                        </ul>
-                      </li>
-
-                      <li class="dropdown">
-                        <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Projects and links<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-
-                              <li><a href="http://cantus.simssa.ca/" target="_top">Cantus Ultimus</a></li>
-
-                              <li><a href="" target="_top">ELVIS Project</a></li>
-
-                              <li><a href="http://jmir.sourceforge.net/index_jSymbolic.html" target="_top">jSymbolic2</a></li>
-
-                              <li><a href="http://liber.simssa.ca" target="_top">Liber Usualis</a></li>
-
-                              <li><a href="https://github.com/DDMAL/Andrew-Hughes-Chant" target="_top">LMLO</a></li>
-
-                              <li><a href="" target="_top">Musiclibs</a></li>
-
-                              <li><a href="http://ddmal.teamwork.com/" target="_top">Teamwork</a></li>
-
-                          <hr id="menu-divider">
-                          <li><a href="http://github.com/DDMAL" target="_blank">Github</a></li>
-                          <li><a href="http://twitter.com/simssaproject" target="_blank">Twitter</a></li>
-                        </ul>
-                      </li>
-
-                      <li><a href="/blog">Blog</a></li>
-                      <li><a href="/opportunities">Opportunities</a></li>
-
-                      <li><a href="/contact">Contact us</a></li>
-
-                  </ul>
-              </div>
-          </div>
-      </div>
-
-
-          <div class="post">
-    <div class="container">
-      <div class="page-header" id="banner">
-          <div class="row">
-              <div class="col-lg-12">
-              </div>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-lg-12">
-              <h2>Elvis Database — better than ever.</h2><br>
-              <p class="blog-post">
-                 Posted by ehopkins on September 30, 2015
-            </p><br>
-                  <p></p><p>A key part of the <a href="http://elvisproject.ca/">ELVIS Project</a> is the <a href="http://database.elvisproject.ca/">ELVIS Database</a>, a crowd-sourced resource of musical scores in symbolic notation (e.g. MEI, MusicXML). The usefulness of the database depends on contributions from all kinds of users, so developing a friendly, functional interface is key. Today’s post features one of our developers in the DDMAL lab discussing some of the big changes he worked on over the summer. Take a look at some of the improvements, and even <a href="http://database.elvisproject.ca/pieces/upload/">try uploading a piece</a>!</p>
-
-  <p><em>Guest post by Alex Parmentier</em></p>
-
-  <p>My name is Alex Parmentier. I’m an undergrad in Computer Science at McGill university, and over the last few months I’ve been making big improvements to the <a href="http://database.elvisproject.ca/">ELVIS Database</a> which I’m eager to share.</p>
-
-  <p>The two major features I would like to focus on are the all-new upload and update interface and the improved searching interface.</p>
-
-  <p>When I began working on the database, there was no feature for users to upload new files. Implementing this feature was of critical importance, as the project relies on its users to populate the database with information. The implementation posed substantial challenges, since developers, musicologists, and other users had to work together to develop an interface which is easy to use and learn. The search interface also suffered from a lack of flexibility and poor usability because of constant page refreshes and resetting of fields.</p>
-
-  <p>Here are a few of the cool things that came out of this work.
-  <br>
-  <br></p>
-  <h3 id="suggestions-and-pop-up-rules-on-every-upload-field">Suggestions and pop-up rules on every upload field.</h3>
-  <p><br>
-  <br>
-  <img src="../../assets/img/image00.png" alt=""></p>
-
-  <p>In order to make it easier for users to get a quick understanding of what the database already contains, and the rules for adding new things, I’ve added suggestions and pop-up rules to every field in the upload form. The suggestions are based of off live searches of the database, and the popup rules allow me to communicate the most important rules about the field in the context where they are important. Since there are dozens of rules for uploading pieces, putting them in context is extremely important!
-  <br>
-  <br></p>
-  <h3 id="creating-movements-uploading-files--all-on-one-page">Creating movements, uploading files — all on one page.</h3>
-  <p><br>
-  <img src="../../assets/img/image02.png" alt="">
-  <br>
-  The upload form was designed to allow users to communicate the important information about a piece of music as intuitively as possible, following mental models of music instead of just the database’s internal structure. When uploading, the user can create as many movements as they want all on the same page, and can just as easily upload files to represent these movements. Developing this feature required close collaboration with testers in order to create an interface which was easy to use while supporting many use-cases.
-  <br></p>
-  <h3 id="advanced-search--as-fast-as-you-can-type">Advanced search — as fast as you can type.</h3>
-  <p><br>
-  <br>
-  <img src="../../assets/img/image01-20150930152238.png" alt="">
-  <br>
-  <br>
-  Our new advanced search allows simultaneous searching across over a dozen fields, and returns results nearly instantly on the same page. Users can quickly and easily narrow their search even further by selecting from a list of facets, allowing anyone to find exactly the items they’re looking for, and even be guided towards unexpected and interesting results.</p>
-
-  <p>I have also made the entire website more consistent and simple in design, improved our download system, added dynamic collection creation, and done many other overall performance and usability improvements. You can see the changes, as well as upload files, at <a href="http://database.elvisproject.ca/">http://database.elvisproject.ca/</a>. Contact me at 	alexandre.parmentier@mail.mcgill.ca if you have questions or suggestions for the project!</p>
-  <p></p>
-          </div>
-      </div>
-      <br><hr><br>
-      <div class="related">
-        <h2>Related Posts</h2>
-        <ul class="related-posts">
-
-            <li>
-              <h3>
-                <a href="/blog/MMLworkshop/">
-                  Music and Machine Learning Workshop
-                  <!-- <small>22 Dec 2021</small> -->
-                </a>
-              </h3>
+  <body id ="Site" class='layout-reverse theme-base-sm sidebar-overlay'>
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+      content to avoid any CSS collisions with our real content. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="navbar navbar-expand-sm navbar-default navbar-fixed-top" role="navigation">
+      <div class="container" id="nav-container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../">SIMSSA</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav nav mr-auto">
+            <li><a href="../../about">About</a></li>
+            <li><a href="../../people">Participants</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Activities<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href='../../activities/corpora-and-datasets/' target='_top' >Datasets and Corpora</a></li>
+                <li><a href='../../activities/impact/' target='_top' >Our impact</a></li>
+                <li><a href='../../activities/media/' target='_top' >Media</a></li>
+                <li><a href='../../activities/presentations/' target='_top' >Presentations</a></li>
+                <li><a href='../../activities/publications/' target='_top' >Publications</a></li>
+                <li><a href='../../activities/workshops/' target='_top' >Workshops</a></li>
+              </ul>
             </li>
-
-            <li>
-              <h3>
-                <a href="/blog/ismir2019/">
-                  ISMIR 2019: Delft
-                  <!-- <small>16 Dec 2019</small> -->
-                </a>
-              </h3>
+            <li class="dropdown">
+              <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Projects and links<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href='http://cantus.simssa.ca/' target='_top' >Cantus Ultimus</a></li>
+                <li><a href='' target='_top' >ELVIS Project</a></li>
+                <li><a href='http://jmir.sourceforge.net/index_jSymbolic.html' target='_top' >jSymbolic2</a></li>
+                <li><a href='http://liber.simssa.ca' target='_top' >Liber Usualis</a></li>
+                <li><a href='https://github.com/DDMAL/Andrew-Hughes-Chant' target='_top' >LMLO</a></li>
+                <li><a href='' target='_top' >Musiclibs</a></li>
+                <li><a href='http://ddmal.teamwork.com/' target='_top' >Teamwork</a></li>
+                <hr id="menu-divider">
+                <li><a href="http://github.com/DDMAL" target="_blank">Github</a></li>
+                <li><a href="http://twitter.com/simssaproject" target="_blank">Twitter</a></li>
+              </ul>
             </li>
-
-            <li>
-              <h3>
-                <a href="/blog/simssa-xix/">
-                  SIMSSA XIX: Introducing DACT and MML16
-                  <!-- <small>11 Dec 2019</small> -->
-                </a>
-              </h3>
-            </li>
-
-        </ul>
-        <br><br><br>
+            <li><a href="../../blog">Blog</a></li>
+            <li><a href="../../opportunities">Opportunities</a></li>
+            <li><a href="../../contact">Contact us</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-      <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
-
-
-  </body></html>
+    <div class="post">
+      <div class="container">
+        <div class="page-header" id="banner">
+          <div class="row">
+            <div class="col-lg-12">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Elvis Database — better than ever.</h2>
+            <br />
+            <p class="blog-post">
+              Posted by ehopkins on September 30, 2015
+            </p>
+            <br />
+            <p>
+            <p>A key part of the <a href="http://elvisproject.ca/">ELVIS Project</a> is the <a href="http://database.elvisproject.ca/">ELVIS Database</a>, a crowd-sourced resource of musical scores in symbolic notation (e.g. MEI, MusicXML). The usefulness of the database depends on contributions from all kinds of users, so developing a friendly, functional interface is key. Today’s post features one of our developers in the DDMAL lab discussing some of the big changes he worked on over the summer. Take a look at some of the improvements, and even <a href="http://database.elvisproject.ca/pieces/upload/">try uploading a piece</a>!</p>
+            <p><em>Guest post by Alex Parmentier</em></p>
+            <p>My name is Alex Parmentier. I’m an undergrad in Computer Science at McGill university, and over the last few months I’ve been making big improvements to the <a href="http://database.elvisproject.ca/">ELVIS Database</a> which I’m eager to share.</p>
+            <p>The two major features I would like to focus on are the all-new upload and update interface and the improved searching interface.</p>
+            <p>When I began working on the database, there was no feature for users to upload new files. Implementing this feature was of critical importance, as the project relies on its users to populate the database with information. The implementation posed substantial challenges, since developers, musicologists, and other users had to work together to develop an interface which is easy to use and learn. The search interface also suffered from a lack of flexibility and poor usability because of constant page refreshes and resetting of fields.</p>
+            <p>Here are a few of the cool things that came out of this work.
+              <br />
+              <br />
+            </p>
+            <h3 id="suggestions-and-pop-up-rules-on-every-upload-field">Suggestions and pop-up rules on every upload field.</h3>
+            <p><br />
+              <br />
+              <img src="../../assets/img/image00.png" alt="" />
+            </p>
+            <p>In order to make it easier for users to get a quick understanding of what the database already contains, and the rules for adding new things, I’ve added suggestions and pop-up rules to every field in the upload form. The suggestions are based of off live searches of the database, and the popup rules allow me to communicate the most important rules about the field in the context where they are important. Since there are dozens of rules for uploading pieces, putting them in context is extremely important!
+              <br />
+              <br />
+            </p>
+            <h3 id="creating-movements-uploading-files--all-on-one-page">Creating movements, uploading files — all on one page.</h3>
+            <p><br />
+              <img src="../../assets/img/image02.png" alt="" />
+              <br />
+              The upload form was designed to allow users to communicate the important information about a piece of music as intuitively as possible, following mental models of music instead of just the database’s internal structure. When uploading, the user can create as many movements as they want all on the same page, and can just as easily upload files to represent these movements. Developing this feature required close collaboration with testers in order to create an interface which was easy to use while supporting many use-cases.
+              <br />
+            </p>
+            <h3 id="advanced-search--as-fast-as-you-can-type">Advanced search — as fast as you can type.</h3>
+            <p><br />
+              <br />
+              <img src="../../assets/img/image01-20150930152238.png" alt="" />
+              <br />
+              <br />
+              Our new advanced search allows simultaneous searching across over a dozen fields, and returns results nearly instantly on the same page. Users can quickly and easily narrow their search even further by selecting from a list of facets, allowing anyone to find exactly the items they’re looking for, and even be guided towards unexpected and interesting results.
+            </p>
+            <p>I have also made the entire website more consistent and simple in design, improved our download system, added dynamic collection creation, and done many other overall performance and usability improvements. You can see the changes, as well as upload files, at <a href="http://database.elvisproject.ca/">http://database.elvisproject.ca/</a>. Contact me at 	alexandre.parmentier@mail.mcgill.ca if you have questions or suggestions for the project!</p>
+            </p>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <br />
+        <div class="related">
+          <h2>Related Posts</h2>
+          <ul class="related-posts">
+            <li>
+              <h3>
+                <a href="../../blog/MMLworkshop/">
+                  Music and Machine Learning Workshop
+                </a>
+              </h3>
+            </li>
+            <li>
+              <h3>
+                <a href="../../blog/ismir2019/">
+                  ISMIR 2019: Delft
+                </a>
+              </h3>
+            </li>
+            <li>
+              <h3>
+                <a href="../../blog/simssa-xix/">
+                  SIMSSA XIX: Introducing DACT and MML16
+                </a>
+              </h3>
+            </li>
+          </ul>
+          <br /><br /><br>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+  </body>
+</html>
