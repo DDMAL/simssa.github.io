@@ -16,10 +16,10 @@ Assuming you have [Git](https://www.atlassian.com/git/tutorials/install-git) ins
 ### Configuration and building site locally
 
 ```
-git clone https://github.com/DDMAL/ddmal.github.io.git
+git clone https://github.com/DDMAL/simssa.github.io.git
 ```
 
-Enter the directory with `cd ddmal.github.io`, and pull from the repository to your local folder. Specifically, pull from the 'deforested' branch, the branch used by GitHub Pages to host the site.
+Enter the directory with `cd simssa.github.io`, and pull from the repository to your local folder. Specifically, pull from the 'deforested' branch, the branch used by GitHub Pages to host the site.
 
 ```
 git pull origin deforested
