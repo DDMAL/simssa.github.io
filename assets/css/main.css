@@ -2350,3 +2350,7 @@ div.logo_map > a.logo > img {
 div.logo_map > a.wide-logo > img {
   max-width: 80vw;
 }
+
+div.center {
+  text-align: center;
+}
