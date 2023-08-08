@@ -39,7 +39,9 @@ To create an export, right click on any of those subfolders and select the optio
 ```
 depending on which folder you are exporting. Then, save it inside the `zotero_export/` folder within this directory.
 
-Next, run the `html_parser.py` script at the top level of this directory (works on Python 3.7, have not checked others). You will be prompted to input text based on which type of citations you would like to update, one of the three or all. The markdown files representing the updated citations in Zotero should now be updated in the folder, and the changes can be pushed to this repo.
+_NOTE: make sure your generated HTML file contains all of the content you want displayed for the given page, old and new. Once the script is run, the existing page content will be **replaced** with the contents of your generated file, so include previous content you want to keep as well as any new modifications._ 
+
+Next, run the `html_parser.py` script at the top level of this directory (works on Python 3.7, have not checked others). You will be prompted to input text based on which type of citations you would like to update, one of the three or all. The changes will be reflected in the `content.json` files in each of the specified folders, which are dynamically displayed in the static pages. Open any modified pages locally to ensure they display correctly before pushing to this repository.
 
 _There is another GitHub Actions script called github_html_parser.py that was used in an attempt to automatically update the citation markdown files when zotero_export/ files are updated and pushed to the repo. It is currently deprecated._
 
