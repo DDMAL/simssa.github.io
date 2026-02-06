@@ -1,4 +1,4 @@
-'''Emily Hopkins adapted to DDMAL needs from the parser Evan Savage 
+'''Emily Hopkins adapted to DDMAL needs from the parser Evan Savage
 wrote for the SIMSSA site'''
 # Later adapted by Taz Scott-Talib to work with static website (July 2023)
 
@@ -38,8 +38,8 @@ for type in parse_list:
 
 
     html_array = []
-
-    for html_tag in html_soup.findAll('div', {'class': 'csl-entry'}):
+    # Replace deprecated BeautifulSoup findAll() with find_all() to avoid warnings.
+    for html_tag in html_soup.find_all('div', class_='csl-entry'):
         parse_attr = html_tag.find_next('span')['title']
         year = 'n.d.'
         author = 'no_author'
@@ -65,7 +65,7 @@ for type in parse_list:
             content[year].append(html_tag.decode_contents())
         else:
             content[year] = [html_tag.decode_contents()]
-    
+
     # sort by year, descending
     content = {y: content[y] for y in sorted(content, reverse=True)}
 
