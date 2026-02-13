@@ -20,8 +20,13 @@ for type in full_list:
 
     # Save html (div) and ascii title [ [<div></div>, "Example Title"]]
 
-    shutil.rmtree(citation_folder)
+    # Check if the folder exists before attempting to remove it to avoid FileNotFoundError
+    if os.path.exists(citation_folder):
+        shutil.rmtree(citation_folder)
+    
     os.makedirs(citation_folder)
+
+    
 
     html_array = []
 
