@@ -22,8 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
         for (let key of years) {
             if (data.hasOwnProperty(key)) {
                 let year = key;
-                html += `<h2 data-toggle="collapse" data-target="#${year}"><img class="icon_rotation" src="../../assets/0-expand_on.png" style="float:right;width:50px;height:50px" data-toggle="collapse" data-target="#${year}">${year}</h2><hr /><div id="${year}" class="collapse in"><ul>`
-                for (entry of data[key]) {
+                let yearId = `year-${year}`;
+                html += `<h2 class="activity-year" data-toggle="collapse" data-target="#${yearId}" aria-expanded="true" aria-controls="${yearId}"><img class="icon_rotation" src="../../assets/0-expand_on.png" style="float:right;width:50px;height:50px" alt="" aria-hidden="true">${year}</h2><hr /><div id="${yearId}" class="collapse in"><ul>`;
+                for (const entry of data[key]) {
                     html += `<li><p>${entry}</p></li>`;
                 }
                 html += `</ul></div><p><br /></p>`;
@@ -31,18 +32,21 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         container.innerHTML = html;
 
-        $(document).ready(function(){
-            $('.icon_rotation').on({
-              'click': function () {
-                console.log('click');
-                var origsrc = $(this).attr('src');
-                var src = '';
-                if (origsrc == '../../assets/0-expand_off.png') src = '../../assets/0-expand_on.png';
-                if (origsrc == '../../assets/0-expand_on.png') src = '../../assets/0-expand_off.png';
-                $(this).attr('src', src);
-              }
-            });
-          });
+        $('#json-content .collapse').on('show.bs.collapse', function() {
+            $(this)
+                .prev('hr')
+                .prev('.activity-year')
+                .find('.icon_rotation')
+                .attr('src', '../../assets/0-expand_on.png');
+        });
+
+        $('#json-content .collapse').on('hide.bs.collapse', function() {
+            $(this)
+                .prev('hr')
+                .prev('.activity-year')
+                .find('.icon_rotation')
+                .attr('src', '../../assets/0-expand_off.png');
+        });
     }
 
     // Load JSON content on page load
