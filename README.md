@@ -1,4 +1,4 @@
-# [SIMSSA](https://ddmal.github.io/simssa-website/)
+# [SIMSSA](https://simssa.ca/)
 
 This is the repository for the SIMSSA website distributed via GitHub Pages. It is a static website built to run without a content management system (CMS) like Jekyll. The website contents and dependency files are stored in this repository. The formatting was adapted from the Lanyon theme, developed by Mark Otto for the Jekyll site generator.
 
